@@ -1,16 +1,16 @@
 ![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
 
 <p align="center">
-	<a href="https://david-dm.org/MichMich/MagicMirror"><img src="https://david-dm.org/MichMich/MagicMirror.svg" alt="Dependency Status"></a>
-	<a href="https://david-dm.org/MichMich/MagicMirror#info=devDependencies"><img src="https://david-dm.org/MichMich/MagicMirror/dev-status.svg" alt="devDependency Status"></a>
+	<a href="https://david-dm.org/frontside/MagicMirror"><img src="https://david-dm.org/frontside/MagicMirror.svg" alt="Dependency Status"></a>
+	<a href="https://david-dm.org/frontside/MagicMirror#info=devDependencies"><img src="https://david-dm.org/frontside/MagicMirror/dev-status.svg" alt="devDependency Status"></a>
 	<a href="https://bestpractices.coreinfrastructure.org/projects/347"><img src="https://bestpractices.coreinfrastructure.org/projects/347/badge"></a>
 	<a href="http://choosealicense.com/licenses/mit"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-	<a href="https://travis-ci.org/MichMich/MagicMirror"><img src="https://travis-ci.org/MichMich/MagicMirror.svg" alt="Travis"></a>
-	<a href="https://snyk.io/test/github/MichMich/MagicMirror"><img src="https://snyk.io/test/github/MichMich/MagicMirror/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/MichMich/MagicMirror" style="max-width:100%;"></a>
+	<a href="https://travis-ci.org/frontside/MagicMirror"><img src="https://travis-ci.org/frontside/MagicMirror.svg" alt="Travis"></a>
+	<a href="https://snyk.io/test/github/frontside/MagicMirror"><img src="https://snyk.io/test/github/frontside/MagicMirror/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/frontside/MagicMirror" style="max-width:100%;"></a>
 	<a href="http://slack.magicmirror.builders"><img src="http://slack.magicmirror.builders:3000/badge.svg" alt="Slack Status"></a>
 </p>
 
-**MagicMirror²** is an open source modular smart mirror platform. With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicMirror²** is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/MichMich/MagicMirror/graphs/contributors).
+**MagicMirror²** is an open source modular smart mirror platform. With a growing list of installable modules, the **MagicMirror²** allows you to convert your hallway or bathroom mirror into your personal assistant. **MagicMirror²** is built by the creator of [the original MagicMirror](http://michaelteeuw.nl/tagged/magicmirror) with the incredible help of a [growing community of contributors](https://github.com/frontside/MagicMirror/graphs/contributors).
 
 MagicMirror² focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
@@ -43,7 +43,7 @@ Note that you will need to install the latest full version of Raspbian, **don't 
 Execute the following command on your Raspberry Pi to install MagicMirror²:
 
 ```bash
-bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
+bash -c "$(curl -sL https://raw.githubusercontent.com/frontside/MagicMirror/master/installers/raspberry.sh)"
 ```
 
 #### Manual Installation
@@ -51,7 +51,7 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 1. Download and install the latest *Node.js* version:
 - `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 - `sudo apt install -y nodejs`
-2. Clone the repository and check out the master branch: `git clone https://github.com/MichMich/MagicMirror`
+2. Clone the repository and check out the master branch: `git clone https://github.com/frontside/MagicMirror`
 3. Enter the repository: `cd MagicMirror/`
 4. Install and run the app with: `npm install && npm start` \
    For **Server Only** use: `npm install && node serveronly` .
@@ -115,8 +115,8 @@ To get more information about the available Dockerfile versions and configuratio
 ### Raspberry Specific
 
 The following wiki links are helpful for the initial configuration of your MagicMirror² operating system:
-- [Configuring the Raspberry Pi](https://github.com/MichMich/MagicMirror/wiki/Configuring-the-Raspberry-Pi)
-- [Auto Starting MagicMirror](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
+- [Configuring the Raspberry Pi](https://github.com/frontside/MagicMirror/wiki/Configuring-the-Raspberry-Pi)
+- [Auto Starting MagicMirror](https://github.com/frontside/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
 
 ### General
@@ -167,7 +167,7 @@ The following modules are installed by default.
 - [**Hello World**](modules/default/helloworld)
 - [**Alert**](modules/default/alert)
 
-For more available modules, check out out the wiki page [MagicMirror² 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules). If you want to build your own modules, check out the [MagicMirror² Module Development Documentation](modules) and don't forget to add it to the wiki and the [forum](https://forum.magicmirror.builders/category/7/showcase)!
+For more available modules, check out out the wiki page [MagicMirror² 3rd Party Modules](https://github.com/frontside/MagicMirror/wiki/3rd-party-modules). If you want to build your own modules, check out the [MagicMirror² Module Development Documentation](modules) and don't forget to add it to the wiki and the [forum](https://forum.magicmirror.builders/category/7/showcase)!
 
 
 ## Updating
@@ -201,7 +201,7 @@ Thanks for your help in making MagicMirror² better!
 
 ## Manifesto
 
-A real Manifesto is still to be written. Till then, Michael's response on [one of the repository issues](https://github.com/MichMich/MagicMirror/issues/1174) gives a great summary:
+A real Manifesto is still to be written. Till then, Michael's response on [one of the repository issues](https://github.com/frontside/MagicMirror/issues/1174) gives a great summary:
 
 > "... I started this project as an ultimate starter project for Raspberry Pi enthusiasts. As a matter of fact, for most of the contributors, the MagicMirror project is the first open source project they ever contributed to. This is one of the reasons why the MagicMirror project is featured in several RasPi magazines.
 >
